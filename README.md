@@ -23,7 +23,7 @@ In tsconfig.json:
 
 ### Node projects:
 
-This project extends the generic preset for a modern Node environment.
+This preset extends the generic preset for a modern Node environment.
 
 In tsconfig.json:
 
@@ -38,19 +38,4 @@ In tsconfig.json:
 }
 ```
 
-### Node (CommonJS) projects:
-
-This project extends the Node preset for a CommonJS Node environment.
-
-In tsconfig.json:
-
-```json
-{
-  "extends": "@sargunv/typescript-config/presets/node-cjs",
-  "include": ["src/**/*"],
-  "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "dist"
-  }
-}
-```
+If using CommonJS instead of ESM, extend `node-cjs` instead of `node`.
