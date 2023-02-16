@@ -37,3 +37,20 @@ In tsconfig.json:
   }
 }
 ```
+
+### Node (CommonJS) projects:
+
+This project extends the Node preset for a CommonJS Node environment.
+
+In tsconfig.json:
+
+```json
+{
+  "extends": "@sargunv/typescript-config/presets/node-cjs",
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist"
+  }
+}
+```
