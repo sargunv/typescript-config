@@ -1,0 +1,34 @@
+{
+  "name": "@sargunv/typescript-config",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sargunv/typescript-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sargunv/typescript-config.git"
+  },
+  "license": "Apache-2.0",
+  "type": "commonjs",
+  "main": "presets/base.json",
+  "files": [
+    "./presets/*"
+  ],
+  "scripts": {
+    "configure": "yarn dlx @yarnpkg/sdks vscode && ignore-sync .",
+    "fix": "prettier --write .",
+    "lint": "prettier --check . --loglevel warn"
+  },
+  "prettier": "@sargunv/prettier-config",
+  "devDependencies": {
+    "@sargunv/prettier-config": "^0.2.2",
+    "ignore-sync": "^6.0.2",
+    "prettier": "^2.8.4"
+  },
+  "peerDependencies": {
+    "typescript": "*"
+  },
+  "packageManager": "yarn@4.0.0-rc.39",
+  "languageName": "node",
+  "publishConfig": {
+    "access": "public"
+  }
+}
