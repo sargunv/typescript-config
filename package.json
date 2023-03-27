@@ -20,7 +20,7 @@
   "devDependencies": {
     "@sargunv/prettier-config": "^0.2.2",
     "ignore-sync": "^6.0.2",
-    "prettier": "^2.8.4"
+    "prettier": "^2.8.7"
   },
   "peerDependencies": {
     "typescript": "*"
