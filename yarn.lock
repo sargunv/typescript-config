@@ -62,7 +62,7 @@ __metadata:
   resolution: "@sargunv/typescript-config@workspace:."
   dependencies:
     "@sargunv/prettier-config": "npm:^0.2.2"
-    ignore-sync: "npm:^6.0.2"
+    ignore-sync: "npm:^7.0.0"
     prettier: "npm:^2.8.4"
   peerDependencies:
     typescript: "*"
@@ -76,14 +76,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.1.2":
-  version: 1.3.2
-  resolution: "axios@npm:1.3.2"
+"axios@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "axios@npm:1.4.0"
   dependencies:
     follow-redirects: "npm:^1.15.0"
     form-data: "npm:^4.0.0"
     proxy-from-env: "npm:^1.1.0"
-  checksum: d70325ae823919b0d1c5b3a41392780f12dfafa666cf688c1948e72fc5ad4fe6ffdd7bfc1aa63fcbda54bba500dfadf680ad675632af72de18269626e9e18b67
+  checksum: 391f7fdb89b0c09d72b825eccf396b3b501c569e8dab759155c4f84b47bb4004432b99d8686758493a3b1d1673c5efd0e4b948108bb0d3de74ca1a8d30877aa6
   languageName: node
   linkType: hard
 
@@ -248,17 +248,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore-sync@npm:^6.0.2":
-  version: 6.0.2
-  resolution: "ignore-sync@npm:6.0.2"
+"ignore-sync@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "ignore-sync@npm:7.0.0"
   dependencies:
-    axios: "npm:^1.1.2"
+    axios: "npm:^1.4.0"
     fast-glob: "npm:^3.2.12"
     ignore: "npm:^5.2.0"
-    ramda: "npm:^0.28.0"
+    ramda: "npm:^0.29.0"
   bin:
     ignore-sync: src/bin.js
-  checksum: 50830a847225a445c2d713b34c37f117d5a298aa303cd1ea40e858118eca13c8b47fa938a719103b58f2a3efded117775c5e5bfbf0720c9d387f7192d7957dd3
+  checksum: 92d8c6b47e6e60a15d30603df47245bcd54a1ede96b3118de67f89022cf9324568cf50b62cd1f952847aad9a0b1dbae738ef91b9617ec03b94a5c4c66ec591ab
   languageName: node
   linkType: hard
 
@@ -434,10 +434,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ramda@npm:^0.28.0":
-  version: 0.28.0
-  resolution: "ramda@npm:0.28.0"
-  checksum: 120ec279647aadc8b771b4c0469ad8fb031f38268ebacd95285e92681fa727be54f19d7f386b1cfd7906eb126b8699d84a4a3ecfe1412d41cec0f4e7250ca182
+"ramda@npm:^0.29.0":
+  version: 0.29.0
+  resolution: "ramda@npm:0.29.0"
+  checksum: 0076fa56eca5707a6780aa64662439bb706b340a7ed8a80cd071333b7178bcc048b0b00979895b407dd8c11b4287d371cca2e4e1af647a97c4a52f0109c4c2fd
   languageName: node
   linkType: hard
 
