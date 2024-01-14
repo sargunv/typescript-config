@@ -14,18 +14,18 @@
   "scripts": {
     "configure": "yarn dlx @yarnpkg/sdks vscode && ignore-sync .",
     "fix": "prettier --write .",
-    "lint": "prettier --check . --loglevel warn"
+    "lint": "prettier --check . --log-level warn"
   },
   "prettier": "@sargunv/prettier-config",
   "devDependencies": {
-    "@sargunv/prettier-config": "^0.2.2",
+    "@sargunv/prettier-config": "^0.3.0",
     "ignore-sync": "^7.0.1",
     "prettier": "^3.2.2"
   },
   "peerDependencies": {
     "typescript": "~5.3.0"
   },
-  "packageManager": "yarn@4.0.0-rc.39",
+  "packageManager": "yarn@4.0.2",
   "languageName": "node",
   "publishConfig": {
     "access": "public"
